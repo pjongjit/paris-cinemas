@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1ece4;
+}
+
+.title-text-box {
+  background: #f1ece4;
+  padding: 20px;
+}
+
+h1 {
+  color: #c88d75;
+  text-transform: uppercase;
+  font-size: 55px;
+}
+
+#map {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 15px;
+  background: #f1ece4;
+  z-index: 10000;
+}
+
+.cinema-size-picker {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cinema-label:hover {
+  color: #54767b;
+  text-decoration: underline;
+}

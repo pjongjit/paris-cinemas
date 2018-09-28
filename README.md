@@ -1,2 +1,3 @@
-# paris-cinemas
-Map of small &amp; large cinema houses in Paris
+# leaflet-checkboxes
+
+Create a map with Leaflet and dropdown filter
