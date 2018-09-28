@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data | Leaflet</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" rel="stylesheet">
+    
+    <!-- Load our styles -->
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title-text-box">
+      <h1>
+        Paris Cinemas
+      </h1>
+    </div>
+    <div id="map"></div>
+    <div class="overlay">
+      <ul class="cinema-size-picker">
+        <li>
+          <input class="cinema-size-checkbox" type="checkbox" id="small-cinemas" data-screens="few"/>
+          <label for="small-cinemas" class="cinema-label">Small cinema houses (1–5 screens)</label>
+        </li>
+        <li>
+          <input class="cinema-size-checkbox" type="checkbox" id="large-cinemas" data-screens="many"/>
+          <label for="large-cinemas" class="cinema-label">Large cinema houses (6+ screens)</label>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Load Leaflet library -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+    
+    <!-- Load Promises polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+    
+    <!-- Load Fetch polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.4/fetch.js"></script>
+    
+    <!-- Load our JavaScript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
